@@ -1,0 +1,50 @@
+{
+    "projects":
+    [
+        {
+            "id": "P1",
+            "project_name": "RandomQuoteGenerator",
+            "description": "Unit1Project",
+            "technologies": "",
+            "live_link": "",
+            "github_link": "https://github.com/jlg2263/TechDegree-Project1",
+            "image_urls": ""
+        },
+        {
+            "id": "P2",
+            "project_name": "ListPaginationAndFiltering",
+            "description": "Unit2Project",
+            "technologies": "",
+            "live_link": "",
+            "github_link": "https://github.com/jlg2263/TechDegree-Project2",
+            "image_urls": ""
+        },
+        {
+            "id": "P3",
+            "project_name": "InteractiveForm",
+            "description": "Unit3Project",
+            "technologies": "",
+            "live_link": "",
+            "github_link": "https://github.com/jlg2263/TechDegree-Project3",
+            "image_urls": ""
+        },
+        {
+            "id": "P4",
+            "project_name": "OOPGameShowApp",
+            "description": "Unit4Project",
+            "technologies": "",
+            "live_link": "",
+            "github_link": "https://github.com/jlg2263/TechDegree-Project4",
+            "image_urls": ""
+        },
+        {
+            "id": "P5",
+            "project_name": "PublicAPIRequests",
+            "description": "Unit5Project",
+            "technologies": "",
+            "live_link": "",
+            "github_link": "https://github.com/jlg2263/TechDegree-Project5",
+            "image_urls": ""
+        }
+    ]
+}
