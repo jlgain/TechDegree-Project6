@@ -1,0 +1,23 @@
+{
+  "name": "TechDegree-Project6",
+  "version": "1.0.0",
+  "description": "TechDegree-Project6",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlg2263/TechDegree-Project6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlg2263/TechDegree-Project6/issues"
+  },
+  "homepage": "https://github.com/jlg2263/TechDegree-Project6#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
