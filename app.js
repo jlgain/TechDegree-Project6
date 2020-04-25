@@ -3,7 +3,7 @@
  * Solution: Use Node.js to connect to github API to get user's projects info
  */
 
-// Require node.js' express, https, api, and queryString and http
+// Require dependencies node.js' express, https, api, and queryString and http
 const express = require('express');
 const api = require('data.json');
 const https = require('https');
@@ -16,6 +16,7 @@ const app = express();
 
 // Tell express to use static middleware
 app.use('/static', express.static('public'));
+app.use('/static', express.static('images'));
 
 // Use the set method to set the view engine to the parameter pug
 // View engine setup

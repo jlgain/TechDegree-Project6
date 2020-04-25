@@ -3,8 +3,8 @@
     [
         {
             "id": "0",
-            "project_name": "Unit1Project",
-            "description": "Random Quote Generator",
+            "project_name": "Random Quote Generator",
+            "description": "Created an app that displays famous quotes each time a button is clicked.",
             "technologies": 
             [
                 "HTML",
@@ -13,7 +13,7 @@
                 "VS Code Editor",
                 "Github Desktop"
             ],
-            "live_link": "",
+            "live_link": "https://jlg2263.github.io/TechDegree-Project1",
             "github_link": "https://github.com/jlg2263/TechDegree-Project1",
             "image_urls": 
             [  
@@ -24,8 +24,8 @@
         },
         {
             "id": "1",
-            "project_name": "Unit2Project",
-            "description": "List Pagination And Filtering",
+            "project_name": "List Pagination And Filtering",
+            "description": "Used a common web development technique known as pagination to enhance user experience of a web page.",
             "technologies":
             [
                 "ES2015",
@@ -35,7 +35,7 @@
                 "VS Code Editor",
                 "Github Desktop"
             ],
-            "live_link": "",
+            "live_link": "https://jlg2263.github.io/TechDegree-Project2",
             "github_link": "https://github.com/jlg2263/TechDegree-Project2",
             "image_urls": 
             [
@@ -46,8 +46,8 @@
         },
         {
             "id": "2",
-            "project_name": "Unit3Project",
-            "description": "Interactive Form",
+            "project_name": "Interactive Form",
+            "description": "Created HTML form to collect information from users. Used JavaScript to enhance an interactive registration form for a fictional conference.",
             "technologies":
             [
                 "HTML",
@@ -57,7 +57,7 @@
                 "VS Code Editor",
                 "Github Desktop"
             ],
-            "live_link": "",
+            "live_link": "https://jlg2263.github.io/TechDegree-Project3",
             "github_link": "https://github.com/jlg2263/TechDegree-Project3",
             "image_urls":
             [
@@ -68,15 +68,15 @@
         },
         {
             "id": "3",
-            "project_name": "Unit4Project",
-            "description": "OOP Game Show App",
+            "project_name": "OOP Game Show App",
+            "description": "Created a browser-based, word guessing game. Used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase.",
             "technologies":
             [
                 "HTML",
                 "CSS",
                 "Object-Oriented Javascript"
             ],
-            "live_link": "",
+            "live_link": "https://jlg2263.github.io/TechDegree-Project4",
             "github_link": "https://github.com/jlg2263/TechDegree-Project4",
             "image_urls": 
             [
@@ -88,8 +88,8 @@
         },
         {
             "id": "4",
-            "project_name": "Unit5Project",
-            "description": "Public API Requests",
+            "project_name": "Public API Requests",
+            "description": "Used a random user generator API to grab information for 12 random employees, and used that data to build a prototype for an employee directory.",
             "technologies":
             [
                 "Asynchronous Programming Javascript",
@@ -99,7 +99,7 @@
                 "AJAX",
                 "Terminal/Command Prompt"
             ],
-            "live_link": "",
+            "live_link": "https://jlg2263.github.io/TechDegree-Project5",
             "github_link": "https://github.com/jlg2263/TechDegree-Project5",
             "image_urls": 
             [
