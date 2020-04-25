@@ -2,73 +2,110 @@
     "projects":
     [
         {
-            "id": "1",
+            "id": "0",
             "project_name": "Unit1Project",
             "description": "Random Quote Generator",
-            "technologies": "",
+            "technologies": 
+            [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "VS Code Editor",
+                "Github Desktop"
+            ],
             "live_link": "",
             "github_link": "https://github.com/jlg2263/TechDegree-Project1",
             "image_urls": 
             [  
-                "/images/randomQuoteGenerator/randomQuoteGenerator1.png",
-                "/images/randomQuoteGenerator/randomQuoteGenerator2.png"
+                "/static/images/randomQuoteGenerator/randomQuoteGenerator1.png",
+                "/static/images/randomQuoteGenerator/randomQuoteGenerator2.png",
+                "/static/images/randomQuoteGenerator/randomQuoteGenerator3.png"
             ]
         },
         {
-            "id": "2",
+            "id": "1",
             "project_name": "Unit2Project",
             "description": "List Pagination And Filtering",
-            "technologies": "",
+            "technologies":
+            [
+                "ES2015",
+                "HTML",
+                "CSS",
+                "Javascript and the DOM",
+                "VS Code Editor",
+                "Github Desktop"
+            ],
             "live_link": "",
             "github_link": "https://github.com/jlg2263/TechDegree-Project2",
             "image_urls": 
             [
-                "/images/listPaginationAndFiltering/listPaginationAndFilteringLandingPage.png", 
-                "/images/listPaginationAndFiltering/listPaginationAndFilteringPage.png",
-                "/images/listPaginationAndFiltering/listPaginationAndFilteringLandingSearch.png"
+                "/static/images/listPaginationAndFiltering/listPaginationAndFilteringLandingPage.png", 
+                "/static/images/listPaginationAndFiltering/listPaginationAndFilteringPage.png",
+                "/static/images/listPaginationAndFiltering/listPaginationAndFilteringLandingSearch.png"
             ]
         },
         {
-            "id": "3",
+            "id": "2",
             "project_name": "Unit3Project",
             "description": "Interactive Form",
-            "technologies": "",
+            "technologies":
+            [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "Jquery",
+                "VS Code Editor",
+                "Github Desktop"
+            ],
             "live_link": "",
             "github_link": "https://github.com/jlg2263/TechDegree-Project3",
             "image_urls":
             [
-                "/images/interactiveForm/interactiveFormLandingPage.png",
-                "/images/interactiveForm/interactiveFormInputData.png",
-                "/images/interactiveForm/interactiveFormError.png"
+                "/static/images/interactiveForm/interactiveFormLandingPage.png",
+                "/static/images/interactiveForm/interactiveFormInputData.png",
+                "/static/images/interactiveForm/interactiveFormError.png"
             ]
         },
         {
-            "id": "4",
+            "id": "3",
             "project_name": "Unit4Project",
             "description": "OOP Game Show App",
-            "technologies": "",
+            "technologies":
+            [
+                "HTML",
+                "CSS",
+                "Object-Oriented Javascript"
+            ],
             "live_link": "",
             "github_link": "https://github.com/jlg2263/TechDegree-Project4",
             "image_urls": 
             [
-                "/images/OOPGameShowApp/OOPGameShowAppStart.png",
-                "/images/OOPGameShowApp/OOPGameShowAppLandingPage.png",
-                "/images/OOPGameShowApp/OOPGameShowAppInteractive.png",
-                "/images/OOPGameShowApp/OOPGameShowAppEnd.png"
+                "/static/images/OOPGameShowApp/OOPGameShowAppStart.png",
+                "/static/images/OOPGameShowApp/OOPGameShowAppLandingPage.png",
+                "/static/images/OOPGameShowApp/OOPGameShowAppInteractive.png",
+                "/static/images/OOPGameShowApp/OOPGameShowAppEnd.png"
             ]
         },
         {
-            "id": "5",
+            "id": "4",
             "project_name": "Unit5Project",
             "description": "Public API Requests",
-            "technologies": "",
+            "technologies":
+            [
+                "Asynchronous Programming Javascript",
+                "Fetch API",
+                "GitBash",
+                "HTTP",
+                "AJAX",
+                "Terminal/Command Prompt"
+            ],
             "live_link": "",
             "github_link": "https://github.com/jlg2263/TechDegree-Project5",
             "image_urls": 
             [
-                "/images/publicAPIRequests/publicAPIRequestsLandingPage.png",
-                "/images/publicAPIRequests/publicAPIRequestsProfile.png",
-                "/images/publicAPIRequests/publicAPIRequestsSearch.png"
+                "/static/images/publicAPIRequests/publicAPIRequestsLandingPage.png",
+                "/static/images/publicAPIRequests/publicAPIRequestsProfile.png",
+                "/static/images/publicAPIRequests/publicAPIRequestsSearch.png"
             ]
         }
     ]
