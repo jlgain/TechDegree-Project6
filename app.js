@@ -3,7 +3,6 @@
 // Require dependencies for node.js to run app
 const express = require('express');
 const bodyParser = require('body-parser');
-const api = require('data.json');
 
 // Create new web/express application by calling express
 // to make "app" central part of our application
