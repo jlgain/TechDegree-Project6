@@ -25,7 +25,6 @@ app.set('view engine', 'pug');
 const aboutRoute = require('./routes/about');
 const indexRoute = require('./routes/index');
 const projectRoute = require('./routes/project');
-const errorRoute = require('./routes/error');
 
 // Use routes variable to make middleware
 app.use(aboutRoute);
@@ -51,7 +50,7 @@ app.use((err, req, res, next) =>
     // Render a template back to client with error data
     res.locals.error = err;
     res.status(err.status);
-    res.render('error', err);
+    res.render('error', {err});
 });
 
 // Set up development server to run on local machine
