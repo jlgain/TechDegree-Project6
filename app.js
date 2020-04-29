@@ -1,52 +1,63 @@
-/**
- * Problem: We need a simple way to look at a current user's proejects 
- * Solution: Use Node.js to connect to github API to get user's projects info
- */
+/* Dependencies */
 
-// Require dependencies node.js' express, https, api, and queryString and http
+// Require dependencies for node.js to run app
 const express = require('express');
+const bodyParser = require('body-parser');
 const api = require('data.json');
-const https = require('https');
-const querystring = require('querystring');
-const http = require('http');
 
-// Call Express to create a new web/express application
-// This variable (app) is the central part of our application
+// Create new web/express application by calling express
+// to make "app" central part of our application
 const app = express();
 
-// Tell express to use static middleware
+/* Middleware */
+
+// Tell express to use body-parser & static middleware/files
+app.use(bodyParser.urlencoded({extended: false}));
 app.use('/static', express.static('public'));
 app.use('/static', express.static('images'));
 
-// Use the set method to set the view engine to the parameter pug
-// View engine setup
+// Use set method to set the view engine to the parameter pug
 app.set('view engine', 'pug');
 
-// Import into file to make index.js & about.js accessible
-// to let this app.js access routes
+/* Routes */
+
+// Import routes to let app.js access routes
 const aboutRoute = require('./routes/about');
 const indexRoute = require('./routes/index');
+const projectRoute = require('./routes/project');
+const errorRoute = require('./routes/error');
 
 // Use routes variable to make middleware
-// To render the "Home" page with the locals set to data.projects
-// and to render the "About" page
 app.use(aboutRoute);
 app.use(indexRoute);
+app.use(projectRoute);
 
-// Function to handle any errors
-function printError(error)
+// Run middleware with annonymous function with app.use method
+// Runs everytime a request comes into the app
+app.use((req, res, next) =>
 {
-    console.error(error.message);
-}
+    // Create error object to hand off to error handler
+    const err = new Error('Page Not Found');
+    err.status = 404;
+    err.message = '404 Error - Page Not Found';
+    console.log(err.message);
+    // Pass control forward through the app or end middleware function
+    next(err);
+});
 
-// Function to print/display project info
-function getProject()
+// Add middleware error handler and pass it into app.use method with 4 parms
+app.use((err, req, res, next) =>
 {
-    // Create local variable to hold parms
-    
+    // Render a template back to client with error data
+    res.locals.error = err;
+    res.status(err.status);
+    res.render('error', err);
+});
 
-    // Create local variable to hold url for project chosen
-    const url = `https://github.com/jlg2263/?${querystring.stringify(parameters)}`;
-
-
-}
+// Set up development server to run on local machine
+// Call listen method passing in the port number 3000
+// to tell the server which port to serve the application on
+app.listen(3000, () =>
+{
+    console.log('The application is running on localhost:3000');
+});
