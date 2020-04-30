@@ -10,7 +10,7 @@ const app = express();
 
 /* Middleware */
 
-// Tell express to use body-parser & static middleware/files
+// Tell express to use static middleware/files
 app.use(bodyParser.urlencoded({extended: false}));
 app.use('/static', express.static('public'));
 app.use('/static', express.static('images'));
@@ -21,14 +21,14 @@ app.set('view engine', 'pug');
 /* Routes */
 
 // Import routes to let app.js access routes
-const aboutRoute = require('./routes/about');
 const indexRoute = require('./routes/index');
+const aboutRoute = require('./routes/about');
 const projectRoute = require('./routes/project');
 
 // Use routes variable to make middleware
-app.use(aboutRoute);
-app.use(indexRoute);
-app.use(projectRoute);
+app.use('/', indexRoute);
+app.use('/about', aboutRoute);
+app.use('/project', projectRoute);
 
 // Run middleware with annonymous function with app.use method
 // Runs everytime a request comes into the app
@@ -37,8 +37,7 @@ app.use((req, res, next) =>
     // Create error object to hand off to error handler
     const err = new Error('Page Not Found');
     err.status = 404;
-    err.message = '404 Error - Page Not Found';
-    console.log(err.message);
+    console.log('404 Error - Page Not Found');
     // Pass control forward through the app or end middleware function
     next(err);
 });

@@ -21,7 +21,7 @@ router.get('/:id', (req, res, next) =>
 {
     // Create local variables to hold data
     const projectId = req.params.id;
-    const project = projects.find(({ id }) => id === projectId);
+    const project = projects.find(({ id }) => id === +projectId);
 
     // If project is true or found, render project
     if (project) 
@@ -34,8 +34,7 @@ router.get('/:id', (req, res, next) =>
         // Log statement to indicate that this function is running
         const err = new Error('Page Not Found');
         err.status = 404;
-        err.message = '404 Error - Page Not Found';
-        console.log(err.message);
+        console.log('404 Error - Page Not Found');
         // Pass control forward through the app or end middleware function
         next(err);
     }
