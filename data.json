@@ -19,7 +19,8 @@
             [  
                 "/static/images/randomQuoteGenerator/randomQuoteGenerator_0.png",
                 "/static/images/randomQuoteGenerator/randomQuoteGenerator_1.png",
-                "/static/images/randomQuoteGenerator/randomQuoteGenerator_2.png"
+                "/static/images/randomQuoteGenerator/randomQuoteGenerator_2.png",
+                "/static/images/randomQuoteGenerator/randomQuoteGenerator_3.png"
             ]
         },
         {
@@ -41,7 +42,8 @@
             [
                 "/static/images/listPaginationAndFiltering/listPaginationAndFiltering_0.png", 
                 "/static/images/listPaginationAndFiltering/listPaginationAndFiltering_1.png",
-                "/static/images/listPaginationAndFiltering/listPaginationAndFiltering_2.png"
+                "/static/images/listPaginationAndFiltering/listPaginationAndFiltering_2.png",
+                "/static/images/listPaginationAndFiltering/listPaginationAndFiltering_3.png"
             ]
         },
         {
@@ -63,7 +65,8 @@
             [
                 "/static/images/interactiveForm/interactiveForm_0.png",
                 "/static/images/interactiveForm/interactiveForm_1.png",
-                "/static/images/interactiveForm/interactiveForm_2.png"
+                "/static/images/interactiveForm/interactiveForm_2.png",
+                "/static/images/interactiveForm/interactiveForm_3.png"
             ]
         },
         {
@@ -105,7 +108,8 @@
             [
                 "/static/images/publicAPIRequests/publicAPIRequests_0.png",
                 "/static/images/publicAPIRequests/publicAPIRequests_1.png",
-                "/static/images/publicAPIRequests/publicAPIRequests_2.png"
+                "/static/images/publicAPIRequests/publicAPIRequests_2.png",
+                "/static/images/publicAPIRequests/publicAPIRequests_3.png"
             ]
         }
     ]
