@@ -17,15 +17,15 @@
             "github_link": "https://github.com/jlg2263/TechDegree-Project1",
             "image_urls": 
             [  
-                "/static/images/randomQuoteGenerator/randomQuoteGenerator1.png",
-                "/static/images/randomQuoteGenerator/randomQuoteGenerator2.png",
-                "/static/images/randomQuoteGenerator/randomQuoteGenerator3.png"
+                "/static/images/randomQuoteGenerator/randomQuoteGenerator_0.png",
+                "/static/images/randomQuoteGenerator/randomQuoteGenerator_1.png",
+                "/static/images/randomQuoteGenerator/randomQuoteGenerator_2.png"
             ]
         },
         {
             "id": "1",
             "project_name": "List Pagination And Filtering",
-            "description": "Used a common web development technique known as pagination to enhance user experience of a web page.",
+            "description": "Used a common web development technique known as pagination to enhance user experience of a web page for a student directory.",
             "technologies":
             [
                 "ES2015",
@@ -39,9 +39,9 @@
             "github_link": "https://github.com/jlg2263/TechDegree-Project2",
             "image_urls": 
             [
-                "/static/images/listPaginationAndFiltering/listPaginationAndFilteringLandingPage.png", 
-                "/static/images/listPaginationAndFiltering/listPaginationAndFilteringPage.png",
-                "/static/images/listPaginationAndFiltering/listPaginationAndFilteringLandingSearch.png"
+                "/static/images/listPaginationAndFiltering/listPaginationAndFiltering_0.png", 
+                "/static/images/listPaginationAndFiltering/listPaginationAndFiltering_1.png",
+                "/static/images/listPaginationAndFiltering/listPaginationAndFiltering_2.png"
             ]
         },
         {
@@ -61,9 +61,9 @@
             "github_link": "https://github.com/jlg2263/TechDegree-Project3",
             "image_urls":
             [
-                "/static/images/interactiveForm/interactiveFormLandingPage.png",
-                "/static/images/interactiveForm/interactiveFormInputData.png",
-                "/static/images/interactiveForm/interactiveFormError.png"
+                "/static/images/interactiveForm/interactiveForm_0.png",
+                "/static/images/interactiveForm/interactiveForm_1.png",
+                "/static/images/interactiveForm/interactiveForm_2.png"
             ]
         },
         {
@@ -80,10 +80,10 @@
             "github_link": "https://github.com/jlg2263/TechDegree-Project4",
             "image_urls": 
             [
-                "/static/images/OOPGameShowApp/OOPGameShowAppStart.png",
-                "/static/images/OOPGameShowApp/OOPGameShowAppLandingPage.png",
-                "/static/images/OOPGameShowApp/OOPGameShowAppInteractive.png",
-                "/static/images/OOPGameShowApp/OOPGameShowAppEnd.png"
+                "/static/images/OOPGameShowApp/OOPGameShowApp_0.png",
+                "/static/images/OOPGameShowApp/OOPGameShowApp_1.png",
+                "/static/images/OOPGameShowApp/OOPGameShowApp_2.png",
+                "/static/images/OOPGameShowApp/OOPGameShowApp_3.png"
             ]
         },
         {
@@ -103,9 +103,9 @@
             "github_link": "https://github.com/jlg2263/TechDegree-Project5",
             "image_urls": 
             [
-                "/static/images/publicAPIRequests/publicAPIRequestsLandingPage.png",
-                "/static/images/publicAPIRequests/publicAPIRequestsProfile.png",
-                "/static/images/publicAPIRequests/publicAPIRequestsSearch.png"
+                "/static/images/publicAPIRequests/publicAPIRequests_0.png",
+                "/static/images/publicAPIRequests/publicAPIRequests_1.png",
+                "/static/images/publicAPIRequests/publicAPIRequests_2.png"
             ]
         }
     ]

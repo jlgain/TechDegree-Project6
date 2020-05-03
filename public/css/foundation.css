@@ -2996,7 +2996,8 @@ select {
   margin-bottom: 1rem;
   font-size: 0.75rem;
   font-weight: bold;
-  color: #cc4b37; }
+  color: #cc4b37;
+ }
   .form-error.is-visible {
     display: block; }
 

@@ -1,6 +1,8 @@
 extends layout
 
 block content
-    h1= error.message
-    h2= error.status
-    pre= error.stack
+    nav.grid-container.portfolio-breadcrumb
+        a(href='/') ← GO TO HOMEPAGE
+        h1(style="color: royalblue; text-align:center")= error.message
+        h2(style="color: royalblue; text-align:center")= error.status
+        pre= error.stack

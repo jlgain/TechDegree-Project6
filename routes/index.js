@@ -14,5 +14,11 @@ router.get('/', (req, res) =>
     res.render('index', { projects });
 })
 
+// Get Home page w/ index
+router.get('/index', (req, res) =>
+{
+    res.render('index', { projects });
+})
+
 // Export router to be referenced in app.js file
 module.exports = router;
